@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tsjcate.iml" filepath="$PROJECT_DIR$/tsjcate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Admin/tsjcate-Admin.iml" filepath="$PROJECT_DIR$/Admin/tsjcate-Admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Admin/Controller/tsjcate-Admin-Controller.iml" filepath="$PROJECT_DIR$/Admin/Controller/tsjcate-Admin-Controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Admin/Web/tsjcate-Admin-Web.iml" filepath="$PROJECT_DIR$/Admin/Web/tsjcate-Admin-Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImageServer/tsjcate-ImageServer.iml" filepath="$PROJECT_DIR$/ImageServer/tsjcate-ImageServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Service/tsjcate-Server.iml" filepath="$PROJECT_DIR$/Service/tsjcate-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Site/tsjcate-Site.iml" filepath="$PROJECT_DIR$/Site/tsjcate-Site.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Site/Controller/tsjcate-Site-Controller.iml" filepath="$PROJECT_DIR$/Site/Controller/tsjcate-Site-Controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Site/Web/tsjcate-Site-Web.iml" filepath="$PROJECT_DIR$/Site/Web/tsjcate-Site-Web.iml" />
+    </modules>
+  </component>
+</project>

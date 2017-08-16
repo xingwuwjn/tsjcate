@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tsjcate-ImageServer:war">
+    <output-path>$PROJECT_DIR$/ImageServer/target</output-path>
+    <root id="archive" name="tsjcate-ImageServer-1.0.war">
+      <element id="artifact" artifact-name="tsjcate-ImageServer:war exploded" />
+    </root>
+  </artifact>
+</component>

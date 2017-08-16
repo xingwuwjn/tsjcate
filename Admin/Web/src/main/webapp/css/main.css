@@ -1,0 +1,28 @@
+*{
+	font-size:13px;
+}
+#header{
+	text-align:center;
+	direction:ltr;
+	background:#5aa1fe;
+}
+.admin_logo{
+	width:246px;
+	height:100%;
+	margin-left:15px;
+	float:left;
+}
+.admin_logo img{
+	text-align:center;
+}
+#logout{
+	width:60px;
+	float:right;
+	margin-top:32px;
+	height:100%;
+}
+#logout a{
+	color: white;
+	text-decoration:none;
+	text-align: center;
+}

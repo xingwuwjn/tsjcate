@@ -1,0 +1,209 @@
+/* 搜索出来的商品样式 */
+.specialty_goods{
+    height:372px;
+    width:240px;
+    float:left;
+}
+.goods_iwrap{
+    min-height: 98%;
+    width: 210px;
+    border:4px solid white;
+    font-size:12px;
+
+}
+.goods_iwrap:hover{
+    border:4px solid black;
+    -webkit-transition:all 1.5s;
+}
+.goods_image{
+    height: 210px;
+    width: 100%;
+    background-color:#e6e6e6;
+
+}
+.goods_image img{
+    display:inline-block;
+    height: 210px;
+    width: 100%;
+}
+.goods_thumb{
+
+    height: 34px;
+    padding-top: 5px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    border:1px solid black;
+    zoom:1;
+}
+.proThumb-wrap b{
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin-right: 3px;
+    padding: 1px;
+    font-size: 0;
+    text-align: center;
+    border: 1px solid #CCC;
+    cursor: pointer;
+}
+
+.goods_image a{
+
+}
+.goods_price{
+    display:block;
+    font-family: arial,verdana,sans-serif!important;
+    color: #C00;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 5px;
+    letter-spacing: normal;
+    /* overflow: inherit!important; */
+
+
+}
+.goods_price em{
+    font-size:22px;
+    color:red;
+}
+.goods_price b{
+    font-size:14px;
+}
+
+.goods_title{
+    display:block;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size:14px;
+}
+a:hover{
+    color: #C10001!important;
+    text-decoration: underline;
+}
+.goods_shop{
+    height: 22px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    color: #999;
+    white-space: nowrap;
+}
+.goods_shop a{
+    font-size:14px;
+}
+.goods_status{
+    height: 32px;
+    width:100%;
+    border: none;
+    border-top: 1px solid #eee;
+    margin-bottom: 0;
+    color: #999;
+}
+.goods_status span{
+    font-size:14px;
+    float: left;
+    display: inline-block;
+    border-right: 1px solid #eee;
+    min-width: 39%;
+    padding: 10px 1px;
+    margin-right: 6px;
+    line-height: 12px;
+    text-align: left;
+}
+/* 分页部分*/
+ .page{text-align:center; position:relative; z-index:2;}
+.page a{height:24px; display:inline-block; line-height:24px; border:#CCC solid 1px; padding:0 12px; margin:0 2px;}
+.page .hl{display:inline-block;padding:0 12px; margin:0 2px;}
+.morePage{padding-left:14px; display:inline-block; height:24px; line-height:24px;}
+.pageNum{width:29px; padding:0 3px; border:#ccc solid 1px; height:24px; line-height:24px\9; text-align:center; margin-left:4px;}
+.page_btn{width:44px; height:24px; line-height:24px; background-color:#E8E8E8; border:#CCC solid 1px;}
+.ye{padding:0 8px 0 6px;}
+.page a,
+.page span,
+.page input{vertical-align:middle; position:relative;}
+.prev-disabled{
+background-color:#535b5f;
+}
+/* 伸缩菜单 */
+.menu{width:190px;
+    border:1px solid #ccc;
+    float:left;
+}
+
+.menu p{height:25px;
+    line-height:25px;
+    font-weight:bold;
+    background:#eee;
+    border-bottom:1px solid #ccc;
+    cursor:pointer;/*鼠标的形状为手型*/
+    padding-left:5px;}
+
+.menu div ul{display:none;}
+
+.menu li{height:24px;
+    line-height:24px;
+    padding-left:5px;}
+.result_deal{
+    float:left;
+    width:960px;
+}
+
+/* 搜索结果页面样式 */
+.result_shopclass{
+    z-index:15;
+}
+.result_show{
+    display:none;
+    opacity:1;
+
+}
+.goods_from{
+    z-index:3;
+}
+.goods_introduce{
+    min-height:46px;
+    background-color:#e6e6e6;
+
+}
+.goods_num{
+    height:30px;
+    background-color:white;
+    border: 1px solid #e6e6e6;
+    padding-left:18px;
+}
+.goods_num label{
+    background:url(../images/main/r_point.png) right center no-repeat;
+    width:110px;
+    display:inline-block;
+    height:30px;
+    font-size:22px;
+    line-height:30px;
+
+}
+
+.goods_num label{
+    height:30px;
+    line-height:30px;
+    font-style: normal;
+}
+
+
+.result_top{
+    height:35px;
+    border:1px solid black;
+    width:100%;
+}
+.result_top li{
+    float:left;
+    margin-left:25px;
+    line-height:28px;
+
+}
+.result_top .xiaoliang{
+    background:url(../images/gouqi/down.png) right center no-repeat;
+    width:50px;
+}
+.result_top li:hover{
+    color:red;
+}

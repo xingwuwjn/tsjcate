@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tsjcate-Site-Web:war">
+    <output-path>$PROJECT_DIR$/Site/Web/target</output-path>
+    <root id="archive" name="tsjcate-Site-Web-1.0.war">
+      <element id="artifact" artifact-name="tsjcate-Site-Web:war exploded" />
+    </root>
+  </artifact>
+</component>

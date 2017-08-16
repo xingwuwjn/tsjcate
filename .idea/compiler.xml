@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tsjcate-Admin-Controller" />
+        <module name="tsjcate-Admin-Web" />
+        <module name="tsjcate-ImageServer" />
+        <module name="tsjcate-Server" />
+        <module name="tsjcate-Site-Controller" />
+        <module name="tsjcate-Site-Web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Controller" target="1.5" />
+      <module name="ImageServer" target="8" />
+      <module name="ImageServer (1)" target="8" />
+      <module name="ImageServer (2)" target="8" />
+      <module name="ImageServer (3)" target="8" />
+      <module name="Site" target="8" />
+      <module name="tsjcate" target="8" />
+      <module name="tsjcate-Admin" target="8" />
+      <module name="tsjcate-Admin-Controller" target="8" />
+      <module name="tsjcate-Admin-Web" target="8" />
+      <module name="tsjcate-Alipay" target="8" />
+      <module name="tsjcate-ImageServer" target="8" />
+      <module name="tsjcate-Server" target="8" />
+      <module name="tsjcate-Site" target="8" />
+      <module name="tsjcate-Site-Controller" target="8" />
+      <module name="tsjcate-Site-Web" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

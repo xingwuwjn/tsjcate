@@ -1,0 +1,220 @@
+@CHARSET "UTF-8";
+/* logo部分css样式 */
+*{  margin:0px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	/*为元素指定的任何内边距和边框都将在已设定的宽度和高度内进行绘制*/
+	list-style: none;
+text-decoration: none;
+outline: none;
+}
+.logo_login{
+	
+	height:78px;
+	width:100%;
+	background-color:#0066FF;
+	margin-top:0px;
+}
+.logo_login a{
+	margin-left:200px;
+	float:left;
+	cursor: pointer;
+}
+.logo_login h3{
+	float:left;
+	margin-left:50px;
+	color:white;
+	font-size:30px;
+	text-align:center;
+	margin-top:25px;
+	
+}
+.login_middle{
+	width:100%;
+	padding-bottom:80px;
+	float:left;
+	height:490px;
+}
+/* 登录注册总体样式 */
+.loginpart{
+	width:400px;
+	margin-right:200px;
+	float:right;
+	margin-top:50px;
+	
+	
+}
+/* 登录，注册切换样式 */
+.login_register{
+	border-bottom:1px solid #bfbfbf;
+	height:50px;
+	text-align:center;
+	width:100%;
+	
+	
+}
+.login_register>:first-child {
+	border-right:1px solid #bfbfbf;
+	
+	}
+.login_register a{
+	color:white;
+	display:inline-block;
+	float:left;
+	width:199px;
+	line-height:50px;
+	font-size:20px;
+	
+	background-color:#0066FF;
+	-webkit-box-shadow:inset 0 2px 2px rgba(0,0,0,.4);
+	-moz-box-shadow:inset 0 2px 2px rgba(0,0,0,.4);
+	box-shadow:inset 0 2px 2px rgba(0,0,0,.4);/*添加阴影效果*/
+}
+/* 登录样式 */
+.login{
+	border:1px solid #bfbfbf;
+}
+.username_div{
+	border:1px solid #bfbfbf;
+	heigth:35px;
+	width:360px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+}
+.username_div i{
+	float:left;
+	display:inline-block;
+	height:35px;
+	width:32px;
+	background:url(../images/login_image/name.png) left center no-repeat;
+}
+.password_div i{
+	float:left;
+	display:inline-block;
+	height:35px;
+	width:32px;
+	background:url(../images/login_image/password.png) left center no-repeat;
+}
+.password_div{
+	border:1px solid #bfbfbf;
+	height:35px;
+	width:360px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+}
+.password_div input{
+	height:35px;
+	width:326px;
+}
+.username_div input{
+	height:35px;
+	width:326px;
+}
+.autologin_div{
+	height:35px;
+	line-height:35px;
+	width:360px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+}
+.autologin_div a{
+	float:right;
+	color:black;
+}
+.login_buttondiv{
+	height:35px;
+	width:360px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+}
+.login_buttondiv input{
+	border:none;
+	width:360px;
+	height:35px;
+	color:white;
+	background-color:#0066FF;
+	-webkit-box-shadow:inset 0 2px 2px rgba(0,0,0,.4);
+	-moz-box-shadow:inset 0 2px 2px rgba(0,0,0,.4);
+	box-shadow:inset 0 2px 2px rgba(0,0,0,.4);/*添加阴影效果*/
+	font-size:23px;
+}
+/* 第三方登录 */
+.login_other{
+	margin-left:auto;
+	margin-right:auto;
+	height:35px;
+	width:360px;
+	margin-top:30px;
+	
+}
+.login_other a{
+	color:black;
+	margin-left:10px;
+}
+/* 注册样式 */
+.register{
+display:none;
+border:1px solid #bfbfbf;
+padding-bottom:20px;
+}
+.register label{
+	display:inline-block;
+	width:21%;
+	text-align:center;
+	height:25px;
+}
+.register div{
+	margin-top:20px;
+	height:25px;
+	
+	}
+ .register input[type=text] input[type=password]{
+	display:inline-block;
+	width:50%;
+	height:25px;
+}
+.register_checkbox input{
+	float:left;
+	margin-left:40px;
+}
+.register_checkbox a{
+	float:left;
+}
+.register_button{
+	text-align:center;
+}
+.register_button input{
+	border:none;
+	width:360px;
+	height:35px;
+	color:white;
+	background-color:#0066FF;
+	-webkit-box-shadow:inset 0 2px 2px rgba(0,0,0,.4);
+	-moz-box-shadow:inset 0 2px 2px rgba(0,0,0,.4);
+	box-shadow:inset 0 2px 2px rgba(0,0,0,.4);/*添加阴影效果*/
+	font-size:23px;
+}
+.register span{
+	padding-left:16px;
+	font-size:14px;
+	background:url(../images/login_image/error.png) left center no-repeat;
+}
+.register p{
+	font-size:13px;
+	padding-left:16px;
+	margin-left:80px;
+	background:url(../images/login_image/error.png) left center no-repeat;
+}
+/*版权样式*/
+.copyright{width:auto;height: 210px;background-color: #ccc;text-align: center;clear:both;color: black;
+ padding-top:35px;}
+.copyright a:hover{color: red;text-decoration:underline;}
+.copyright_1{width:100%;height: 40px;font-size: 14px;line-height: 20px;}
+.copyright_2{height: 46px;margin-top: 50px;width: 100%;}
+.copyright_ul{display: inline-block;}
+.copyright_ul li{float: left;margin-left: 25px;}
